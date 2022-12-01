@@ -44,6 +44,7 @@ function enable() {
 	AUTO_FOCUS = SETTINGS.get_boolean('auto-focus'); // XXX crado
 
 	NOTES_MANAGER = new NotesManager();
+	NOTES_MANAGER._onButtonPressed();
 }
 
 function disable() {
